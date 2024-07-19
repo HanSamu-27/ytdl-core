@@ -1,0 +1,28 @@
+{
+  "name": "ytdl-core",
+  "version": "1.0.0",
+  "description": "Descargar Audios De Youtube con datos agregados Como Imagen, Nombre, Author",
+  "main": "lib/index.js",
+  "scripts": {
+    "node": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "youtube",
+    "64aquality",
+    "sophi",
+    "downloader",
+    "node"
+  ],
+  "author": "Samush",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "form-data": "*",
+    "util": "^0.12.5",
+    "node-id3": "^0.2.6",
+    "fs": "^0.0.1-security",
+    "node-youtube-audio": "*",
+    "path": "^0.12.7", 
+    "ytdl-core": "^4.9.1"
+  }
+}
