@@ -14,13 +14,21 @@ npm install github:HanSamu-27/ytdl-core
 ```javascript
 const { youtubedl } = require('ytdl-core')
 
-const url = 'https://music.youtube.com/watch?v=HBqH4uJS0PU&si=vf1ddWGR3Q_lHfbP'
+const url = 'https://music.youtube.com/watch?v=Ci-DnZf1bhI&si=De4lrDZzUDqsXCwB'
 
 youtubedl(url).then(result => {
 console.log(result)
 }).catch(error => {
 console.error('://')
 })
+
+//Result:
+/*{
+  title: 'Who Can It Be Now?',
+  artist: 'Men at Work - Topic',
+  image: 'https://i.ytimg.com/vi_webp/Ci-DnZf1bhI/maxresdefault.webp',
+  link: 'https://a.uguu.se/VDfFxRTf.mp3'
+}*/
 ```
 
 # Creador
