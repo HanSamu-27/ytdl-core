@@ -2,7 +2,7 @@
   "name": "ytdl-core",
   "version": "1.0.0",
   "description": "Descargar Audios De Youtube con datos agregados Como Imagen, Nombre, Author",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
     "node": "echo \"No tests specified\" && exit 0"
   },
