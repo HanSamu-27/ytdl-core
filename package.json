@@ -21,7 +21,7 @@
     "util": "^0.12.5",
     "node-id3": "^0.2.6",
     "fs": "^0.0.1-security",
-    "node-ytmp3": "github:HanSamu-27/node-ytmp3#main",
+    "node-youtube-audio": "*",
     "path": "^0.12.7", 
     "ytdl-core": "^4.9.1"
   }
