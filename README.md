@@ -12,23 +12,21 @@ npm install github:HanSamu-27/ytdl-core
 ## Uso
 
 ```javascript
-const { youtubedl } = require('ytdl-core')
+let { youtubedl } = require("ytdl-core")
 
-const url = 'https://music.youtube.com/watch?v=Ci-DnZf1bhI&si=De4lrDZzUDqsXCwB'
-
-youtubedl(url).then(result => {
-console.log(result)
-}).catch(error => {
-console.error('://')
-})
-
-//Result:
-/*{
-  title: 'Who Can It Be Now?',
-  artist: 'Men at Work - Topic',
-  image: 'https://i.ytimg.com/vi_webp/Ci-DnZf1bhI/maxresdefault.webp',
-  link: 'https://a.uguu.se/VDfFxRTf.mp3'
-}*/
+let fileName = '@Samush_$.mp3' //nombre que se le pondra a los audios
+let carp = './DWN/' //carpeta donde se guardaran los audios
+(async () => {
+let url = 'https://music.youtube.com/watch?v=s5MEYIp57Qw&si=Q8IAIN6cFbY8klVn'
+let sophi = await youtubedl(url, carp, fileName)
+if (sophi) {
+console.log('• Titulo:', sophi.title)
+console.log('• Imagen:', sophi.thumbnail)
+console.log('• Guardado en:', sophi.save)
+console.log('• Peso:', sophi.size)
+} else {
+console.log('://')
+}})()
 ```
 
 # Creador
